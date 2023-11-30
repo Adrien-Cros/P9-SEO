@@ -8,10 +8,6 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
-	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.js"></script>
-	<script src="./assets/scripts.js"></script>
 	<title>Nina Carducci</title>
 </head>
 <body>
@@ -23,7 +19,7 @@
 			<li><a href="#gallery">Galerie</a></li>
 			<li><a href="#services">Service</a></li>
 			<li><a href="#contact">Contact</a></li>
-			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.webp" alt="Instagram Logo"></a></li>
+			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img width="20" height="20"src="assets/images/instagram.webp" alt="Instagram Logo"></a></li>
 		</ul>
 	</div>
 </header>
@@ -57,7 +53,7 @@
 </section>
 <section id="about">
 	<div class="picture left">
-		<img src="./assets/images/nina.webp" alt="Nina's portrait">
+		<img loading="lazy" width="600" height="600" src="./assets/images/nina.webp" alt="Nina's portrait">
 	</div>
 	<div id="about-me">
 		<h3 class="about-me__title">A propos de moi</h3>
@@ -150,9 +146,13 @@
 			</form>
 		</div>
 		<div class="picture right">
-			<img src="./assets/images/camera.webp" alt="Camera image">
+			<img loading="lazy" width="440" height="440" src="./assets/images/camera.webp" alt="Camera image">
 		</div>
 	</div>
 </footer>
+<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="./assets/maugallery.js"></script>
+<script src="./assets/scripts.js"></script>
 </body>
 </html>
