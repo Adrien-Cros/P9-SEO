@@ -8,14 +8,14 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<meta charset="UTF-8">
-	<meta name="description" content="Portfolio of Nica Carducci, living in Bordeaux France, displaying many photo of took by her, possibility to buy shooting photo">
-	<meta property="og:title" content="Nina Carducci, Photographe Bordeaux">
+	<meta name="description" content="Portfolio of Nica Carducci, professional photographer, living in Bordeaux France">
 	<!--INSTAGRAM-->
-	<meta property="og:description" content="Portfolio of Nica Carducci, living in Bordeaux France, displaying many photos taken by her, possibility to buy shooting photo">
+	<meta property="og:title" content="Nina Carducci, Photographe professionnelle à Bordeaux">
+	<meta property="og:description" content="Portfolio of Nica Carducci, professional photographer, living in Bordeaux France">
 	<meta property="og:image" content="https://adrien-cros.github.io/P9-SEO/assets/images/nina.webp">
 	<meta property="og:url" content="https://adrien-cros.github.io/P9-SEO/">
 
-	<title>Nina Carducci, Photographe Bordeaux</title>
+	<title>Nina Carducci, Photographe professionnelle à Bordeaux</title>
 	<script defer src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script defer src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
 </head>
@@ -159,21 +159,46 @@
 		</div>
 	</div>
 </footer>
-<!--Schema.org-->
+
+<!-- Balises Schema.org -->
 <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Nina Carducci",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "68 avenue Alsace-Lorraine",
-            "addressLocality": "Bordeaux",
-            "postalCode": "33200",
-            "addressCountry": "France"
-        }
-    }
-    </script>
+	{
+		"@context": "http://schema.org",
+		"@type": ["LocalBusiness", "Service"],
+		"name": "Nina Carducci",
+		"description": "Nina Carducci, Photographe professionnelle à Bordeaux",
+		"image": "https://adrien-cros.github.io/P9-SEO/assets/images/nina.webp",
+		"url": "https://adrien-cros.github.io/P9-SEO/",
+		"telephone": "0556677889",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressRegion": "Nouvelle-Aquitaine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"addressCountry": "FR"
+		},
+		"geo": {
+			"@type": "GeoCoordinates",
+			"latitude": "45.56284",
+			"longitude": "5.43554"
+		},
+		"openingHoursSpecification": {
+			"@type": "OpeningHoursSpecification",
+			"dayOfWeek": [
+				"lundi",
+				"mardi",
+				"mercredi",
+				"jeudi",
+				"vendredi"
+			],
+			"opens": "10:00",
+			"closes": "19:00"
+		},
+		"priceRange" : "50€ - 400€"
+	}
+</script>
+	
 <script defer src="./assets/maugallery.js"></script>
 <script defer src="./assets/scripts.js"></script>
 </body>
